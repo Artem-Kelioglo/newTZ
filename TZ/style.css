@@ -1,0 +1,193 @@
+@charset "UTF-8";
+img {
+  width: 100%;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./shutterstock.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./shutterstock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3% 0 3% 0;
+}
+
+.header-titles {
+  color: white;
+  padding-left: 6%;
+}
+
+.bg-war {
+  background-color: #FE551E;
+}
+
+.container-fluid {
+  max-width: 1600px;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 2%;
+}
+
+li {
+  list-style-type: none;
+  font-size: 20px;
+  /* Убираем маркеры */
+}
+
+@media (max-width: 1600px) {
+  li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1300px) {
+  li {
+    font-size: 12px;
+  }
+}
+
+li > i {
+  font-size: 10px;
+}
+
+@media (max-width: 1600px) {
+  .title-items {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .title-items {
+    font-size: 16px;
+  }
+}
+
+i {
+  font-size: 32px;
+  color: #0F7EF4;
+}
+
+.icon-block1 {
+  color: rgba(0, 0, 0, 0.582);
+}
+
+p {
+  display: inline-block;
+}
+
+.main-title {
+  position: relative;
+}
+
+.main-title::after {
+  content: '';
+  /* Выводим пустое содержимое */
+  position: absolute;
+  /* Абсолютное позиционирование */
+  background: #0F7EF4;
+  /* Цвет линии */
+  left: 50%;
+  /* Положение линии слева */
+  bottom: -20px;
+  /* Положение линии */
+  width: 20%;
+  /* Линия на ширину текста */
+  height: 2px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.btn {
+  background-color: #FE551E;
+  border-color: #FE551E;
+}
+
+.blockquote > p {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: black;
+  font-weight: 600;
+}
+
+.blockquote-footer::before {
+  content: "";
+}
+
+cite {
+  display: block;
+  font-weight: 300;
+}
+
+.footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./shutterstock.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./shutterstock.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3% 0 0 0;
+}
+
+.footer input {
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
+.footer input::-webkit-input-placeholder {
+  color: white;
+}
+
+.footer input:-ms-input-placeholder {
+  color: white;
+}
+
+.footer input::-ms-input-placeholder {
+  color: white;
+}
+
+.footer input::placeholder {
+  color: white;
+}
+
+.footer-info {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.countdown-number {
+  padding: 0 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 0 15px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.colon {
+  vertical-align: top;
+}
+/*# sourceMappingURL=style.css.map */
